@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "axios": "^0.26.0",
+    "child_process": "^1.0.2",
+    "discord.js": "^13.6.0",
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
+    "noblox.js": "^4.13.1",
+    "path": "^0.12.7",
+    "trello": "^0.11.0",
+    "uuid": "^8.3.2"
+  }
+}

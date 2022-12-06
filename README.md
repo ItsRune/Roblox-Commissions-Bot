@@ -1,0 +1,25 @@
+## To do
+- [ ] Subscription System
+  - [x] Fetch trello board subscriptions.
+  - [x] Check due date on cards for if time of check is earlier or right now.
+  - [ ] Try to send below in dms first.
+  - [ ] Send this in the respected channel:
+    - [ ] Message user for what they wish to pay in.
+    - [ ] If Usd was chosen:
+      - [ ] Take Robux amount and convert into usd (IF USD WAS CHOSEN)
+      - [ ] Link them paypal.
+    - [ ] If Crypto was chosen:
+      - [ ] Select menu with different accepted crypto names and tickers.
+      - [ ] When chosen send the crypto wallet they should send to.
+    - [ ] If Robux was chosen:
+      - [ ] Create new asset within commissions group:
+        - [ ] ADD TAX TO THE AMOUNT
+      - [ ] Bot checks when a new purchase is made within the group and check for their userid.
+
+- [x] Ticket System
+  - [x] Send button message into open ticket channel.
+  - [x] Hook button to `open_ticket` interaction.
+    - [x] When button pressed:
+      - [x] Opens new ticket under the category `tickets`.
+      - [x] Add close ticket button to ticket that handles deletion of channel when pressed.
+  - [x] Add `openticket` in case button fails to initialize.
